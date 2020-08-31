@@ -1,0 +1,1 @@
+{"pl_srvc_rl_id":"698","plan_id":"24","service_id":"1","charge_type":"FIXED","charge_method":"CREDIT","rate":"0.00","capping_amount":"10.00","slab_applicable":"0","service_name":"Vodafone","code":"VFP","type":"PREPAID","served_by":"8","Amnt_by_routing":"1","supported_gateway":"8"}

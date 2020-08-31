@@ -1,0 +1,1 @@
+["SELECT `pamnt`.*\nFROM `fstpy_plan_service_config` `psc`\nJOIN `fstpy_plan_amnt_slab_config` `pamnt` ON `psc`.`plan_id`=`pamnt`.`plan_id` AND `psc`.`service_id`=`pamnt`.`service_id`\nWHERE `psc`.`plan_id` = '3'\nAND `psc`.`service_id` = '16'\nAND `pamnt`.`min_amnt` <= '100'\nAND `pamnt`.`max_amnt` >= '100'"]

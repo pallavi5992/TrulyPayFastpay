@@ -1,0 +1,1 @@
+["SELECT sum(atx.transamt) as 'tdy_totalamnt'\nFROM `fstpy_usertxn_table` `atx`\nWHERE `atx`.`user_id` = '53937035'\nAND `atx`.`status` != 'REFUND'\nAND  DATE_FORMAT(req_dt, '%Y-m') LIKE '%2020-05%' ESCAPE '!'\nORDER BY `atx`.`id` DESC"]

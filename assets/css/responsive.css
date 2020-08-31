@@ -1,0 +1,181 @@
+@media only screen and (min-width: 1200px)
+{
+  .nav-set .container
+  {
+  max-width: 1200px;
+  }
+.last-link::after
+{
+content: url(../images/angle-down.png) !important;
+    position: absolute !important;
+    right: 24px !important;
+    background-color: transparent !important;
+    border: none;
+    height: auto !important;
+}
+
+.nav-set .nav-item.active .nav-link
+{
+color:#00b2ff;
+}
+
+.nav-set .navbar
+{
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+}
+
+@media only screen and (max-width: 1199px)
+{
+
+.nav-set .navbar
+{
+width: 100%;
+}
+.navbar-toggler
+{
+margin-left: auto;
+margin-right: 10px;
+}
+
+.nav-set .navbar .nav-link
+{
+border-bottom: 1px solid #ffffff38;
+color:#fff !important;
+width: 100%;
+float: left;
+}
+
+.nav-set .navbar .last-link
+{
+border-bottom: none;
+}
+
+.nav-set  .navbar
+{
+background-color: #2994c2 !important;
+}
+
+span.nav-icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 39px;
+}
+
+.nav-icon img
+{
+margin-right: 0px;
+}
+
+.nav-set .nav-item .dropdown-menu
+{
+margin-top:56px;
+}
+
+.service-name{margin-top: 8px; float: left;}
+
+}
+
+
+@media only screen and (max-width: 767px)
+{
+
+.logo img {
+    width: 122px;
+}
+
+.dashed-border{width: 100%; float: left; margin-bottom: 5px;}
+.login-inner-container{display:flex; flex-direction:column;}
+.login-info{order:1;}
+}
+
+
+@media only screen and (max-width: 539px)
+{
+
+.top-section-right
+{
+width: 100%;
+float: left;
+margin-top: 10px;
+}
+
+.wallet-balance-box
+{
+margin-left: 0px;
+}
+
+}
+
+@media only screen and (min-width: 992px)
+{
+.bord-right-dashed
+{
+border-right: 1px dashed #424242;
+}
+}
+
+
+@media only screen and (max-width: 991px)
+{
+ .sm-bord-bottom
+{
+border-bottom: 1px solid #bdbdbd;
+}
+
+.input-col{border-right: none;}
+.row-divider{border-bottom: 0px;}
+.md-bord-bottom{border-bottom: 1px solid #bdbdbd;}
+
+.select-box{width: 270px; border:none;}
+.select-box-label{width: 100%; border-right: none;}
+.select-box .custom-select{width: 100%; border: 1px solid #ced4da;}
+.recharge_section_outer .tab-content{margin-top: 30px;}
+.recharge-lbl{padding-top: 10px; padding-bottom:10px;}
+.transaction-list-details-col{width: 100%;}
+.transaction-list-details-col.bord-right-set{border-bottom:1px solid #bdbdbd; border-right: 0px;}
+}
+
+@media only screen and (max-width: 420px)
+{
+.list-set li span{width: 100%; display: block;}
+.nav-tabs-set .nav-link {width: 100%;}
+.nav-tabs-set{text-align: left;}
+}
+
+@media only screen and (max-width: 480px)
+{
+.select-box{width: 100%; margin-bottom: 10px;}
+.recharge-detail-list li.recharge-detail-list-txt span
+{    width: 100%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recharge-detail-list li
+{
+width: 100%;
+float: left;
+text-align: left;
+}
+
+.confirm-screen-inner
+{
+width:100%;
+float: left;
+}
+
+.sm-pl-10{padding-left: 10px;}
+.sm-pr-10{padding-right: 10px;}
+
+.transaction-list-details-col ul li span{width: 100%; float: left;}
+
+}

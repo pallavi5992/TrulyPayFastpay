@@ -1,0 +1,1 @@
+{"pl_srvc_rl_id":"776","plan_id":"14","service_id":"3","charge_type":"PERCENTAGE","charge_method":"CREDIT","rate":"12.00","capping_amount":"12.00","slab_applicable":"0","service_name":"Reliance Jio","code":"RJP","type":"PREPAID","served_by":"8","Amnt_by_routing":"0","supported_gateway":"8"}

@@ -1,0 +1,1 @@
+{"id":"174","pl_srvc_rl_id":"0","plan_id":"3","service_id":"3","charge_type":"FIXED","charge_method":"CREDIT","min_amnt":"10.00","max_amnt":"500.00","rate":"10.00"}

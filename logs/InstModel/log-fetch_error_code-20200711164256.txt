@@ -1,0 +1,1 @@
+["SELECT `pe`.*\nFROM `fstpy_internal_errorcodes` `pe`\nJOIN `fstpy_vendor_errcd_relation` `s_e` ON `s_e`.`intrnl_errorcodeid`=`pe`.`errorcode_id`\nWHERE `s_e`.`vendor_errorcode` = 'SPE'\nAND `s_e`.`vendor_id` = '1'"]

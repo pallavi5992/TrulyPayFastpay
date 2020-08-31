@@ -1,0 +1,1 @@
+{"pl_srvc_rl_id":"853","plan_id":"14","service_id":"14","charge_type":"PERCENTAGE","charge_method":"CREDIT","rate":"2.00","capping_amount":"0.00","slab_applicable":"0","service_name":"d2h","code":"VTV","type":"DTH","served_by":"8","Amnt_by_routing":"0","supported_gateway":"8"}

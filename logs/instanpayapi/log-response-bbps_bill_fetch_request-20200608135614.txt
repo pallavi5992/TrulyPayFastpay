@@ -1,0 +1,1 @@
+{"statuscode":"SNA","status":"Access Approval Pending","data":"","timestamp":"2020-06-08 13:56:14","ipay_uuid":"30DBB818C2E0EC604E79","orderid":"","environment":""}
